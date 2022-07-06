@@ -1,1 +1,4 @@
-# memory-test
+# Memory Test
+
+React + TypeScript & Sass
+
