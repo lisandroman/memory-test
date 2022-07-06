@@ -1,0 +1,47 @@
+.score-container {
+  align-items: center;
+  display: flex;
+  color: #4481a2;
+  flex-direction: row;
+  font-family: 'Roboto', sans-serif;
+  font-size: xx-large;
+  gap: 10%;
+  margin: 5%;
+  justify-content: center;
+  width: 500px;
+  
+  .score {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }  
+
+  button {
+    background-color: #cb0d7c;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    &:hover{
+      background-color: #4481a2;
+      color: #fafafa;
+    }
+  }
+
+  // small screens
+  @media screen and (max-width: 768px) {
+    font-size: large;
+    margin: 10%;
+    width: 300px;
+
+    button {
+      font-size: x-small;
+      height: 30px;
+      width: 60px;
+    }
+  }
+}
